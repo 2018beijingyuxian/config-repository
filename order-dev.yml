@@ -5,12 +5,13 @@ spring:
     url: jdbc:mysql://10.128.203.246:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
     username: root
     password: 123456
+  rabbitmq:
+    host: 10.128.203.246
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 env:
-  dev1
-girl:
-  name: xiao
-  age: 18
+  dev
