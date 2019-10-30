@@ -9,6 +9,9 @@ spring:
     host: 10.128.203.246
     username: guest
     password: guest
+  redis:
+    host: 10.128.203.246
+    port: 6379
 eureka:
   client:
     service-url:
