@@ -2,15 +2,15 @@ spring:
   application:
     name: order
   datasource:
-    url: jdbc:mysql://10.128.214.249:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://10.128.245.59:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
     username: root
     password: 123456
   rabbitmq:
-    host: 10.128.214.249
+    host: 10.128.245.59
     username: guest
     password: guest
   redis:
-    host: 10.128.214.249
+    host: 10.128.245.59
     port: 6379
 eureka:
   client:
